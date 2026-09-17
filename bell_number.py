@@ -15,7 +15,7 @@ for i in range(n):                         #loop for changing rows from 0 to n
         if j == 0 and i > 0:                     #repeating the last number of previous row in new row
             print(bell, '', end='')            #printing first number of each line
         else:
-            k = (i**2)+1+bell                  #to generate other numbers of line
+            k = (i**5)+1+bell                  #to generate other numbers of line
             print(k, '', end='')               #printing other number in lines
             bell = k                           #updating value of bell
     print('\n')                              #for moving into next lines           
