@@ -7,7 +7,7 @@
 #13  23  33  43
 #The code to print the bell triangle is as follows-
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-n = int(input("enter the number of balls: "))     #taking value from the user
+n = int(input("enr the number of balls: "))     #taking value from the user
 bell = 0                                       #initialising bell to 'zero'
 k = 0                                          #initialising k to 'zero'
 for i in range(n):                         #loop for changing rows from 0 to n
